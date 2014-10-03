@@ -23,3 +23,11 @@ rake() {
 		command rake "$@" 
 	fi
 }
+
+test() {
+	if [ -S .zeus.sock ]; then
+		zeus test "$@"
+	else
+		command test "$@" 
+	fi
+}
