@@ -12,7 +12,7 @@ just use:
 
 The plugin will detect if zeus is running and will prepend `zeus` for you. 
 
-This also works for `rake` and `rspec`:
+This also works for `rake`, `test` and `rspec`:
 
 Instead of: 
 
